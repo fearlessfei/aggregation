@@ -1,0 +1,11 @@
+[orm]
+	DSN = "root:chinese@/orm?charset=utf8&parseTime=True&loc=Local"
+	Active = 10
+	Idle = 5
+	IdleTimeout = 1
+
+[http]
+	Addr = ":8080"
+	ReadTimeout = 1000000000
+	WriteTimeout = 1000000000
+	MaxHeaderBytes = 4086
